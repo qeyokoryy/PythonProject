@@ -21,3 +21,10 @@ else:
         print('y больше')
     else:
         print('z больше')
+#+elif
+if x > y and x > z:
+    print('x Больше')
+elif y>z:
+        print('y больше')
+    else:
+        print('z больше')
