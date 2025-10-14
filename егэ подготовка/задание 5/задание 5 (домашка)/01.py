@@ -1,4 +1,4 @@
-for n in range(1000, 10000):
+for n in range(9999, 999, -1):
     s = str(n)
     x1 = int(s[0])+int(s[1])
     x2 = int(s[1])+int(s[2])
@@ -6,10 +6,12 @@ for n in range(1000, 10000):
     a = [x1, x2, x3]
     a = sorted(a)
 
-    r = str(a[0])+ str(a[1])
+    r = str(a[1])+ str(a[2])
 
     if r == '1115':
         print(n)
+        break
+
 
 
 
