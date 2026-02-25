@@ -82,11 +82,39 @@
 # print('x y z w')
 
 
+#
+# def n(1,1001):
+#     return n > 1:
+#     print(n)
+#
 
-def n(1,1001):
-    return n > 1:
-    print(n)
 
+# print('x y z w')
+# for x in range(2):
+#     for y in range(2):
+#         for z in range(2):
+#             for w in range(2):
+#                 if (not((not x) or y) or(y==z) or (not w))==0:
+#                     print(x,y,z,w)
+
+
+# print('x y z w')
+# for x in range(2):
+#      for y in range(2):
+#        for z in range(2):
+#            for w in range(2):
+#                if     not (not(((not x ) or y) and (not w) ) or (not(z and (not (y and w))))):
+#                    print(x,y,z,w)
+
+# yxwz
+
+print('x y z w')
+for x in range(2):
+     for y in range(2):
+       for z in range(2):
+           for w in range(2):
+               if (not w) and ((y or z) <= (y and (not x))):
+                   print(x,y,z,w)
 
 
 
