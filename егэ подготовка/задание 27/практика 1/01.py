@@ -35,8 +35,8 @@ centerB = [center(cl) for cl in clustersB]
 pxA = sum(dot[0] for dot in centerA)/2 * 10000
 pyA = sum(dot[1] for dot in centerA)/2 * 10000
 
-pxB = sum(dot[0] for dot in centerA)/3 * 10000
-pyB = sum(dot[1] for dot in centerA)/3 * 10000
+pxB = sum(dot[0] for dot in centerB)/3 * 10000
+pyB = sum(dot[1] for dot in centerB)/3 * 10000
 
 print(int(pxA), int(pyA))
 print(int(pxB), int(pyB))
